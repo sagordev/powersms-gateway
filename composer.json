@@ -1,0 +1,32 @@
+{
+    "name": "sagordev/powersms-gateway",
+    "description": "A php package for BanglaPhone Power SMS",
+    "keywords": ["Power SMS", "powersms", "banglaphone", "commlink", "bulk sms bangladesh", "sms", "php powersms"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sagordev\\PowersmsGateway\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asadujjaman Sagor",
+            "email": "asadujjaman.sagor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.0 | ^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sagordev\\PowersmsGateway\\Providers\\PowerSmsGatewayServiceProvider"
+            ],
+            "aliases": {
+                "PowerSms": "Sagordev\\PowersmsGateway\\Facades\\PowerSms"
+            }
+        }
+    }
+}
