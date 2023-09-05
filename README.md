@@ -21,7 +21,7 @@ Add your Power SMS API credentials and configure other settings in the `config/p
 ```php
 return [
     'user_id' => 'YOUR_USER_ID',
-    'password' => 'YOU_PASSWORD',
+    'password' => 'YOUR_PASSWORD',
     'url' => '' // You can keep it blank
 ];
 ```
@@ -32,7 +32,8 @@ return [
 ```php
 use Sagordev\PowersmsGateway\Facades\PowerSms;
 
-PowerSms::message('Hello', '01234567890')->send(); // You can also send list of numbers (ex: ['01234567890', '01234567891'])
+PowerSms::message('This is a test SMS', '01234567890')->send();
+// You can also send list of numbers (ex: ['01234567890', '01234567891'])
 ```
 
 ### Sending Same SMS to multiple recipients
@@ -78,7 +79,7 @@ use Sagordev\PowersmsGateway\PowerSms;
 
 $config = [
     'user_id' => 'YOUR_USER_ID',
-    'password' => 'YOU_PASSWORD',
+    'password' => 'YOUR_PASSWORD',
     'url' => '' // You can keep it blank
 ];
 
