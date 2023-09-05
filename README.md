@@ -32,7 +32,7 @@ return [
 ```php
 use Sagordev\PowersmsGateway\Facades\PowerSms;
 
-PowerSms::message('Hello', '01234567890')->send();
+PowerSms::message('Hello', '01234567890')->send(); // You can also send list of numbers (ex: ['01234567890', '01234567891'])
 ```
 
 ### Sending Same SMS to multiple recipients
