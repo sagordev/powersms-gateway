@@ -94,7 +94,7 @@ $sms->message('I am SMS with carbon copy to developer')
 ```
 
 # Support and Issues
-If you encounter any issues or have questions about using this package, please feel free to create an issue on the [GitHub repository](https://github.com/sagordev/banglaphone-powersms-php/issues). We are here to help!
+If you encounter any issues or have questions about using this package, please feel free to create an issue on the [GitHub repository](https://github.com/sagordev/banglaphone-powersms-php/issues). I am here to help!
 
 # License
 This package is open-sourced software licensed under the MIT License.
