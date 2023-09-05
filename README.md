@@ -12,7 +12,7 @@ For Laravel integration, follow these additional steps:
 
 Publish the package configuration file:
 ```
- php artisan vendor:publish --provider="SagorDev\PowerSmsGateway\PowerSmsGatewayServiceProvider"
+ php artisan vendor:publish --provider="Sagordev\PowersmsGateway\Providers\PowerSmsGatewayServiceProvider"
 ```
 This will publish the configuration file to `config/powersms.php`
 
